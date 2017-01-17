@@ -1,0 +1,90 @@
+* {
+  border: none;
+  padding: 0;
+  margin: 0;
+  list-style: none; }
+
+body {
+  font-family: 'Roboto', sans-serif; }
+
+h1 {
+  font-weight: normal; }
+
+h2 {
+  font-weight: normal; }
+
+h3 {
+  font-weight: normal; }
+
+.container {
+  width: 600px;
+  margin: 0 auto; }
+
+.heading {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 20px;
+  background: #666;
+  float: left;
+  color: #fff; }
+
+.section {
+  float: left;
+  width: 100%;
+  padding: 20px 0 0;
+  box-sizing: border-box;
+  border-top: 1px solid #666;
+  margin-top: 20px; }
+
+.select-list {
+  width: 100%;
+  float: left; }
+  .select-list li {
+    display: block;
+    width: 100%;
+    float: left;
+    cursor: pointer;
+    box-sizing: border-box;
+    padding: 10px 10px 10px 40px;
+    border-bottom: 1px solid #e4e4e4;
+    position: relative; }
+    .select-list li:last-child {
+      border-bottom: none; }
+    .select-list li span {
+      display: block;
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      border: 1px solid #e4e4e4;
+      left: 10px;
+      top: 9px; }
+    .select-list li.active span:after {
+      content: '';
+      position: absolute;
+      width: 12px;
+      height: 12px;
+      top: 4px;
+      left: 4px;
+      background: #666; }
+
+.display-list {
+  width: 100%;
+  float: left;
+  margin-bottom: 80px; }
+  .display-list li {
+    display: block;
+    width: 100%;
+    float: left;
+    cursor: pointer;
+    box-sizing: border-box;
+    padding: 10px;
+    border-bottom: 1px solid #e4e4e4;
+    position: relative; }
+    .display-list li.inactive {
+      opacity: 0.2; }
+    .display-list li h3 {
+      margin-bottom: 8px; }
+    .display-list li p {
+      margin-bottom: 6px; }
+      .display-list li p:last-child {
+        margin-bottom: 0; }
